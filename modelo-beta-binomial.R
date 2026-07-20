@@ -1,11 +1,3 @@
-# Instalar apenas na primeira vez
-install.packages(c(
-  "glmmTMB",
-  "broom.mixed",
-  "performance",
-  "DHARMa"
-))
-
 library(glmmTMB)
 library(dplyr)
 library(broom.mixed)
